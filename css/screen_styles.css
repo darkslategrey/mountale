@@ -58,6 +58,9 @@ nav a {
     text-align: center;    
 }
 
+.onglet-actif {
+    border-bottom: 0.3em solid #000;}
+
 nav a:hover {
     border-bottom: 0.3em solid #000;}
 
