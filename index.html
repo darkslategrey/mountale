@@ -1,95 +1,58 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
-		<title>Mountdale</title>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+    <title>Mountdale</title>
 
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/screen_styles.css" />
-		<link rel="stylesheet" type="text/css" href="css/screen_layout_large.css" />
-		<link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:500px)"   href="css/screen_layout_small.css">
-		<link rel="stylesheet" type="text/css" media="only screen and (min-width:501px) and (max-width:800px)"  href="css/screen_layout_medium.css">
-		<!--[if lt IE 9]>
-			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-	</head>
-	<body>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+  </head>
+  <body>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 
-		<div class="page">
-			<header>
-				<a class="logo" href="#"></a>
-			</header>
-            <div class="promo_container">
-                    <div class="promo minus">
-					   <div class="content">
-				        <h3></h3>
-				        <p></p>
-                        </div>
-				    </div>
-                    <div class="promo zero">
-					   <div class="content">
-				        <h3>Right the first time</h3>
-						<p>Founded on 18 years of hands-on experience in the baking industry.
-Mountdale installs and commissions complete turn-key process lines while maintaining a strong emphasis on sustainability. At Mountdale we always strive to get it right the first time.</p>
-					   </div>
-				    </div>
-				<div class="promo one">
-					<div class="content">
-						<h3>PROJECT MANAGEMENT: <br>The only thing that does not change is change itself.</h3>
-						<p>Evolution is inevitable. Would it be for producing a new product or simply in order to maintain a technological advantage, your process needs to adapt to the new situations. Mountdale provides you with hands-on experience running bakery projects. Ontime, within budget and sustainable. </p>
-						<p><a class="cta" href="">Learn more</a></p>
-					</div>
-				</div>
-				<div class="promo two">
-					<div class="content">
-						<h3>UPTIME &amp; RELIABILITY</h3>
-						<p>While many methodologies are available in order to maintain your process uptime and efficiency at an optimum level (TPM, 5S, Lean, Kaizen…), they all require valuable resources. 
-By letting Mountdale handle the critical startup phase and the follow-up sessions, you decide to invest in proven solutions with long-term effects.
+    <!-- Begin page content -->
+    <div class="container">
+      <div class="page-header">
+        <h1>Sticky footer with fixed navbar</h1>
+      </div>
+      <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body &gt; .container</code>.</p>
+      <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
+    </div>
 
-With an optimized workspace, your staff will handle your production with more efficiency and effectiveness.</p>
-						<p><a class="cta" href="">Learn more about our programs</a></p>
-					</div>
-				</div>
-				<div class="promo three">
-					<div class="content">
-						<h3>SUSTAINABLE SOLUTIONS</h3>
-						<p>Every action, every decision at Mountdale is taken with sustainability in mind. 
-From optimization of the building ventilation to recovering waste heat, we identify technological opportunities in the field of sustainability in order to propose environmentally low impact solutions to the industry.
-In addition to a minimized carbon footprint, our solutions often come with  advantages in areas such as reduced noise level, improved ergonomics... or simply easier cleaning and maintenance.</p>
-						<p><a class="cta" href="">Learn more about our sustainable solutions</a></p>
-					</div>
-				</div>
-                
-				<div class="clear-fix"></div>
-			</div>
-			<nav>
-				<a href="index.html">HOME</a>
-                <a href="project-management.html">Project<br>Management</a>
-				<a href="#">Uptime and<br>Reliability</a>
-				<a href="#">Sustainable<br>Solutions</a>
-                <a href="#">About Us</a>
-			</nav>
-			<footer>
-				    <div class="about">&copy; Mountdale 2015<br>2 rue du bel air<br>92190                     MEUDON<br>FRANCE</div>
-                   
-                    <ul class="about">
-                    <li><strong>PAGES</strong></li>
-                    <li><a href="#">Project Management</a></li>
-                    <li><a href="#">Uptime and Reliability</a></li>
-                    <li><a href="#">Sustainable Solutions</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Legal Notice</a></li>
-                    </ul>
-                        
-                   
-                    <div class="about">
-                    <strong>ABOUT THE COMPANY:</strong><br> Mountdale was created on 18 years of hands-on experience in the baking industry</div>
-                    <div class="about"><strong>ABOUT THE FOUNDER:</strong><br> Stephane FJELDDAHL first created the company...</div>
-                
-			</footer>
-		</div>
-		<script src="js/jquery-1.11.2.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-	</body>
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Place sticky footer content here.</p>
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+	 ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
